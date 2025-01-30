@@ -18,4 +18,8 @@ pkgs.stdenv.mkDerivation {
 
     runHook postInstall
   '';
+
+  meta = {
+    mainProgram = "jsonrpcrun";
+  };
 }
